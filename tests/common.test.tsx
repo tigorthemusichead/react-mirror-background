@@ -7,8 +7,12 @@ import { Mirror } from '../src'
 
 describe('Common render', () => {
   it('renders without crashing', () => {
-    render(<Mirror setLighting={(isLight) => {
-      console.log(isLight)
-    }}/>)
+    render(
+      <Mirror
+        setLighting={(isLight) => {
+          console.log(isLight)
+        }}
+      />,
+    )
   })
 })
