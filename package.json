@@ -1,6 +1,6 @@
 {
   "name": "react-mirror-background",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple mirror background library with theme toggle functionality for React",
   "keywords": [
     "react",
